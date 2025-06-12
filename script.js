@@ -51,7 +51,7 @@ removeBtn.addEventListener("click", () => {
 
 modal.addEventListener("keydown", (e) => {
   const textarea = document.querySelector("textarea");
-  if (e.key === "Shift") {
+  if (e.key === "Shift" && e.target.value !== "") {
     const ticketId = Math.random().toString(36).substring(2);
     ticketList.push({
       content: textarea.value,

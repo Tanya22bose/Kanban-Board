@@ -4,23 +4,15 @@ A minimal Kanban-style ticket management application built with HTML, CSS, and J
 
 ## 🚀 Features
 
-🎫 Add New Tickets with task descriptions and a selected priority color.
-
-🎨 Priority Tagging with selectable color indicators.
-
-✏️ Editable Tickets with lock/unlock toggling.
-
-🔄 Color Cycling by clicking on the color bar of a ticket.
-
-🗑️ Delete Mode to remove unwanted tickets.
-
-🎯 Filter by Priority Color (single-click to filter, double-click to reset).
-
-💾 LocalStorage Persistence to save tasks across sessions.
+- 🎫 Add New Tickets with task descriptions and a selected priority color.
+- 🎨 Priority Tagging with selectable color indicators.
+- ✏️ Editable Tickets with lock/unlock toggling.
+- 🔄 Color Cycling by clicking on the color bar of a ticket.
+- 🗑️ Delete Mode to remove unwanted tickets.
+- 🎯 Filter by Priority Color (single-click to filter, double-click to reset).
+- 💾 LocalStorage Persistence to save tasks across sessions.
 
 ## 📁 Project Structure
-
-bash
 
 ```Copy
 ├── index.html # Main HTML file
@@ -37,15 +29,11 @@ bash
 
 ## Action Description
 
-➕ Add Ticket Click the + icon, type your task, select priority color, press Shift to save.
-
-❌ Remove Mode Click the x icon to activate delete mode (shows alert and red icon), then click any ticket to delete.
-
-🔓 Edit Task Click the lock icon to unlock, edit task, click again to save.
-
-🎨 Change Priority Click ticket's top color bar to cycle through priorities.
-
-🎯 Filter Click a color box in the top bar to filter by that color, double-click to reset.
+- ➕ Add Ticket Click the + icon, type your task, select priority color, press Shift to save
+- ❌ Remove Mode Click the x icon to activate delete mode (shows alert and red icon), then click any ticket to delete
+- 🔓 Edit Task Click the lock icon to unlock, edit task, click again to save
+- 🎨 Change Priority Click ticket's top color bar to cycle through priorities
+- 🎯 Filter Click a color box in the top bar to filter by that color, double-click to reset
 
 ## 🧠 How It Works
 
